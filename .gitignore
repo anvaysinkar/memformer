@@ -1,0 +1,7 @@
+venv/
+pin/
+traces/
+*.out
+__pycache__/
+*.pyc
+*.tar.gz
