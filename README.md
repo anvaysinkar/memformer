@@ -2,7 +2,7 @@
 
 A novel Transformer architecture for predicting memory access patterns in operating systems, featuring binary output encoding that achieves up to **338x parameter compression** over vanilla approaches — while maintaining ~95% accuracy on real workloads.
 
-Inference latency: **~95 microseconds** on CPU (10,000+ predictions/second), making it practical for real prefetcher deployment##.
+Inference latency: **~95 microseconds** on CPU (10,000+ predictions/second), making it practical for real prefetcher deployment.
 
 ## Team Members
 - Viyan Shetty
