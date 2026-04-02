@@ -4,7 +4,7 @@ A novel Transformer architecture for predicting memory access patterns in operat
 
 Inference latency: **~95 microseconds** on CPU (10,000+ predictions/second), making it practical for real prefetcher deployment.
 
----
+----
 
 ## Why this matters
 
