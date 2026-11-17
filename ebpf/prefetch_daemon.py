@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import sys, os
-sys.path.insert(0, '/workspaces/memformer/model')
-os.chdir('/workspaces/memformer')
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, 'model'))
+os.chdir(ROOT)
 
 from bcc import BPF
 import ctypes, numpy as np, torch
